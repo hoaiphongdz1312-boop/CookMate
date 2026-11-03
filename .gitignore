@@ -1,0 +1,31 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Cấu hình chứa connection string / khóa bí mật, KHÔNG commit
+server/CookMate.Api/appsettings.Development.json
+server/CookMate.Api/appsettings.Production.json
+appsettings.*.local.json
+
+# Flutter / Android
+app/.dart_tool/
+app/build/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/android/local.properties
+app/android/.gradle/
+
+# Sao luu DB (chua du lieu nguoi dung, khong commit)
+backup/
+# Bản publish (chứa cấu hình bí mật)
+publish-host/
+publish-host-khauvi/
+
+# IDE
+.idea/
+publish-host/
+publish-host-khauvi/
+.idea/

@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/server/">
+    <Project Path="server/CookMate.Api.Tests/CookMate.Api.Tests.csproj" />
+  </Folder>
+  <Project Path="server/CookMate.Api/CookMate.Api.csproj" />
+</Solution>
